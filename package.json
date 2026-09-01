@@ -1,0 +1,11 @@
+{
+  "name": "pulse-chat",
+  "version": "1.0.0",
+  "description": "Pulse Chat - Full-stack real-time messaging application",
+  "scripts": {
+    "dev:server": "cd server && node src/index.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && node src/index.js"
+  }
+}
